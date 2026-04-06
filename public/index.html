@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KKGS SaaS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar glass">
+      <div class="brand">
+        <div class="logo">KKGS</div>
+        <div>
+          <h1>Kelab Kebajikan Guru dan Staf</h1>
+          <p>SaaS Pengurusan Yuran & Kutipan</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#kelebihan">Kelebihan</a>
+        <a href="#notis">Notis</a>
+        <a class="btn ghost" href="login.html?type=admin">Log Masuk Admin</a>
+        <a class="btn primary" href="login.html?type=member">Log Masuk Ahli</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <p class="tag">Sistem rasmi KKGS</p>
+          <h2>Sistem Pengurusan Yuran & Kutipan KKGS</h2>
+          <p>
+            Platform berpusat untuk semakan yuran ahli, kutipan program khas, rekod transaksi, notis,
+            dan analitik kutipan secara profesional.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="login.html?type=admin">Log Masuk Admin</a>
+            <a class="btn ghost" href="login.html?type=member">Log Masuk Ahli</a>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <article class="card">
+            <h3>Semakan Yuran</h3>
+            <p>Lihat status bayaran ahli secara masa nyata.</p>
+          </article>
+          <article class="card">
+            <h3>Kutipan Khas</h3>
+            <p>Urus program sekolah, lawatan, dan kebajikan.</p>
+          </article>
+          <article class="card">
+            <h3>Rekod Tersusun</h3>
+            <p>Semua transaksi dan bukti bayaran terpusat.</p>
+          </article>
+          <article class="card">
+            <h3>Notifikasi Automatik</h3>
+            <p>Peringatan tunggakan dan pengesahan bayaran.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="kelebihan" class="section">
+        <h3>Kelebihan Sistem</h3>
+        <div class="feature-grid">
+          <article class="card">
+            <h4>Mudah semak tunggakan</h4>
+            <p>Status merah/kuning/hijau memudahkan tindakan segera oleh admin dan ahli.</p>
+          </article>
+          <article class="card">
+            <h4>Mudah urus kutipan program</h4>
+            <p>Set amaun, tarikh akhir, sasaran ahli, dan lihat prestasi kutipan setiap program.</p>
+          </article>
+          <article class="card">
+            <h4>Rekod pembayaran tersusun</h4>
+            <p>Audit trail, bukti bayaran, dan resit boleh dicapai semula pada bila-bila masa.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="notis" class="section">
+        <h3>Pengumuman & Notis</h3>
+        <div id="announcement-list" class="notice-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 KKGS • Sekolah Menengah Contoh • support@kkgs.edu.my</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
