@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard KKGS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="logo">KKGS</div>
+        <p id="sidebar-role"></p>
+        <ul>
+          <li>Dashboard</li>
+          <li>Ahli</li>
+          <li>Kutipan</li>
+          <li>Pembayaran</li>
+          <li>Laporan</li>
+          <li>Notifikasi</li>
+        </ul>
+      </aside>
+      <main class="dashboard-content">
+        <header class="dashboard-header">
+          <div>
+            <h1 id="welcome-title">Dashboard</h1>
+            <p id="welcome-subtitle"></p>
+          </div>
+          <a href="index.html" class="btn ghost">Log Keluar</a>
+        </header>
+
+        <section id="metrics" class="metrics"></section>
+
+        <section class="panel-grid">
+          <article class="panel">
+            <h3>Senarai Bayaran / Kutipan</h3>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Nama</th>
+                    <th>Kutipan</th>
+                    <th>Status</th>
+                    <th>Tarikh Akhir</th>
+                    <th>Amaun</th>
+                  </tr>
+                </thead>
+                <tbody id="payment-table"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="panel">
+            <h3>Notis Penting</h3>
+            <div id="dashboard-notices" class="notice-list"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

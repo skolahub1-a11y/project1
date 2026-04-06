@@ -1,0 +1,14 @@
+{
+  "name": "kkgs-saas",
+  "version": "1.0.0",
+  "description": "Sistem Pengurusan Yuran & Kutipan KKGS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
